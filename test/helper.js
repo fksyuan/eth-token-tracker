@@ -2,7 +2,7 @@ const assert = require('assert').strict
 const fs = require('fs')
 const path = require('path')
 const TestRPC = require('ethereumjs-testrpc')
-const Eth = require('ethjs-query')
+const Eth = require('@fksyuan/ethjs-query')
 const EthContract = require('ethjs-contract')
 const solc = require('solc')
 

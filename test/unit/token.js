@@ -1,5 +1,5 @@
 const test = require('tape')
-const BN = require('ethjs').BN
+const BN = require('@fksyuan/ethjs').BN
 
 const Token = require('../../lib/token')
 const { setupSimpleTokenEnvironment } = require('../helper')

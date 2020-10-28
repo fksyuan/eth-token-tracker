@@ -1,5 +1,5 @@
 const TokenTracker = require('../')
-const Eth = require('ethjs')
+const Eth = require('@fksyuan/ethjs')
 const eth = new Eth(new Eth.HttpProvider('https://mainnet.infura.io'))
 
 const userAddress = '0x2a7750ce195376166e4abdc916e64b48d6da19aa'

@@ -1,5 +1,5 @@
 {
-  "name": "@metamask/eth-token-tracker",
+  "name": "@fksyuan/eth-token-tracker",
   "version": "3.0.0",
   "description": "A module for tracking Ethereum token balances over block changes.",
   "main": "dist/index.js",

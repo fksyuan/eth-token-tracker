@@ -1,7 +1,7 @@
 const test = require('tape')
 const ProviderEngine = require('web3-provider-engine')
 
-const BN = require('ethjs').BN
+const BN = require('@fksyuan/ethjs').BN
 
 const TokenTracker = require('../../lib')
 const { setupSimpleTokenEnvironment } = require('../helper')
