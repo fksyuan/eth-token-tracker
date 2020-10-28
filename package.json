@@ -1,7 +1,7 @@
 {
   "name": "@fksyuan/eth-token-tracker",
   "version": "3.0.0",
-  "description": "A module for tracking Ethereum token balances over block changes.",
+  "description": "A module for tracking PlatON token balances over block changes.",
   "main": "dist/index.js",
   "scripts": {
     "lint": "echo 'Skip'",
@@ -19,7 +19,7 @@
     "access": "public"
   },
   "keywords": [
-    "ethereum",
+    "platon",
     "tokens"
   ],
   "author": "Dan Finlay <dan@danfinlay.com>",
@@ -34,7 +34,7 @@
   ],
   "dependencies": {
     "deep-equal": "^1.1.0",
-    "eth-block-tracker": "^4.4.2",
+    "@fksyuan/eth-block-tracker": "^4.4.2",
     "@fksyuan/ethjs": "^0.3.6",
     "ethjs-contract": "^0.2.1",
     "@fksyuan/ethjs-query": "^0.3.7",
