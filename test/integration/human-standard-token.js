@@ -10,7 +10,7 @@ const TokenTracker = require('../../lib')
 const BN = require('@fksyuan/ethjs').BN
 
 const Eth = require('@fksyuan/ethjs-query')
-const EthContract = require('ethjs-contract')
+const EthContract = require('@fksyuan/ethjs-contract')
 const eth = new Eth(provider)
 const contract = new EthContract(eth)
 

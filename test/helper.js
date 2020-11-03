@@ -3,7 +3,7 @@ const fs = require('fs')
 const path = require('path')
 const TestRPC = require('ethereumjs-testrpc')
 const Eth = require('@fksyuan/ethjs-query')
-const EthContract = require('ethjs-contract')
+const EthContract = require('@fksyuan/ethjs-contract')
 const solc = require('solc')
 
 const source = fs.readFileSync(path.resolve(__dirname, 'contracts/Token.sol')).toString();
